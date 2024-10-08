@@ -1,0 +1,47 @@
+﻿issues,solutions
+Screen froze twice,Examplify will automatically close background apps and clear RAM to ensure smooth performance.
+Exam was not starting due to microphone issue,Ensure the microphone is not muted or blocked. Examplify will override settings to ensure compatibility and reduce noise.
+Exam does not get uploaded till the system is restarted,System will auto-detect upload issues and reattempt uploads in the background. Follow AI guidance if manual upload is needed. Examplify will start your internet manually.
+Excel was not working properly (not executing basic formulas),AI will troubleshoot the excel scrathpad.
+Timer was not working properly,Timer will sync with Examplify's server for accuracy. Your screen will display time in minutes and seconds.
+Significant delay in loading excel scratchpad,Examplify will preload the Excel scratchpad before the exam to reduce load times. AI will notify users of any delays.
+Internet disabled after exam (had to restart),AI will ensure internet reconnects automatically after the exam. Examplify will strat your wifi overriding other commands.
+Excel scratchpad not working until the 15th minute,AI will detect and resolve delays in the scratchpad by adjusting system resources automatically.
+Had to give exam on pen-paper due to microphone issues,AI will notify if microphone issues occur. Ensure correct configuration and no app interference.
+Exam got submitted even when the timer had 1 minute left,"AI will warn users before submission if time is low, requiring manual confirmation to prevent early submission."
+Calculator takes up full screen,AI will allow the calculator to be resized and moved so users can access both the calculator and questions.
+Calculator is inconvenient to use,"A resizable calculator will be provided, ensuring it doesn't block the screen."
+Excel stops working when the scratchpad is closed or when switching questions,AI will auto-save progress and ensure data retention when switching between questions or closing the scratchpad.
+Excel scratchpad takes up the whole screen,Examplify will implement a resizable Excel window so users can view the scratchpad alongside exam questions.
+"Video proctoring file not uploaded, and video monitoring was inactive",AI will notify users of recording issues and ensure video monitoring is enabled. Files will upload securely after the exam.
+Password shared at the last minute causes rush,Exam password will be shared 10 minutes before the exam starts to allow smooth registration.
+Wallpaper changes after the exam (needs restart),AI will ensure wallpaper settings remain unchanged after the exam to prevent restarts.
+Cannot jump to the next question from the left-side column,"Users will now be able to navigate questions directly from the left-side column, without repeatedly clicking 'next'."
+I am being shown https://prod-api.examsoft.io/v1/courses: 500 Internal Server Error,Shorten the Course Title
+I am being shown https://prod-api.examsoft.io/v1/courses: 400 Bad Request,Shorten the Course ID
+I am being shown http failure response for https://prod-api-prod.examsoft.com/v1/courses: 400 Bad Request,Shorten the Course ID
+I am being shown http failure response for https://phx011-api-prod.examsoft.com/v1/courses: 400 Bad Request,Shorten the Course ID
+I am being shown http failure response for https://phx011-api-prod.examsoft.com/v1/courses: 400 Bad Request,Shorten the Course ID
+I am being shown https://phx011-api.examsoft.io/v1/courses: 500 Internal Server Error,Shorten the Course Title
+I am being shown https://phx006-api-prod.examsoft.io/v1/courses: 500 Internal Server Error,Shorten the Course Title
+I am being shown https://phx006-api-prod.examsoft.com/v1/courses: 400 Bad Request,Shorten the Course ID
+I am being shown http failure response for https://phx006-api-prod.examsoft.com/v1/courses: 400 Bad Request,Shorten the Course Title
+I am being shown https://phx010-api.examsoft.io/v1/courses: 500 Internal Server Error,Shorten the Course Title
+I am being shown http failure response for https://phx010-api-prod.examsoft.com/v1/courses: 400 Bad Request,Shorten the Course ID
+I am being shown http failure response for https://phx010-api-prod.examsoft.com/v1/courses: 400 Bad Request,Shorten the Course ID
+"I’m routed to my school’s website when trying to log in, but it won’t let me sign in.","Ensure you’re utilizing Google Chrome or Mozilla Firefox as your default browser.
+Clear the browser's cookies/cache, then retry.
+If the issue persists, please contact your administrator IT to provide your credentials.
+If issues persist further, please have your administrator communicate directly with ExamSoft Support to troubleshoot."
+I don't have an account,"You will need to contact an administrator from your institution to activate your account.
+ExamSoft does not directly manage your institution’s user profiles and cannot activate your account."
+My account isn't active.,"You will need to contact an administrator from your institution to activate your account.
+ExamSoft does not directly manage your institution’s user profiles and cannot activate your account."
+"I can log in through the institution portal, but not the application.","Perform a clean installation of the Examplify application.
+Navigate back to your institution’s portal to download the correct version of Examplify connected to your institution."
+"I can log in through the application, but not the institution portal.","Ensure you’re utilizing Google Chrome or Mozilla Firefox as your default browser.
+Clear the browser's cookies/cache, then try to login again.
+The credentials you use in the portal are the same credentials utilized for the application."
+"When I log in, I see a whitelabel error or complete blank page.","Ensure you’re navigating to your respective institution’s portal at https://examsoft.com/
+Select the User Login button in the top navigation pane."
+"In the application, it states multiple users are logged in.",Ensure that only one user is logged in to the account.
