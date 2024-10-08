@@ -10,7 +10,7 @@ openai.api_key = 'your-openai-api-key'
 # Load CSV data using the new caching method
 @st.cache_data
 def load_data():
-    df = pd.read_csv('exam_issues.csv')  # Ensure the CSV is in the correct location
+    df = pd.read_csv('data.csv')  # Ensure the CSV is in the correct location
     return df
 
 # Function to find the most similar question from the CSV
